@@ -1,6 +1,19 @@
+import { MantineProvider } from "@mantine/core";
+import { MedplumClient } from "@medplum/core";
+import { MedplumProvider } from "@medplum/react";
 import { AppProps } from "next/app";
 import Head from "next/head";
-import { MantineProvider } from "@mantine/core";
+
+const medplum = new MedplumClient({
+  // Uncomment this to run against the server on your localhost
+  // baseUrl: 'http://localhost:8103/',
+
+  // Handle unauthenticated requests
+  onUnauthenticated: () => (window.location.href = "/"),
+
+  // Use Next.js fetch
+  fetch: (url: string, options?: any) => fetch(url, options),
+});
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -16,15 +29,10 @@ export default function App(props: AppProps) {
         />
       </Head>
 
-      <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
-        theme={{
-          /** Put your mantine theme override here */
-          colorScheme: "dark",
-        }}
-      >
-        <Component {...pageProps} />
+      <MantineProvider withGlobalStyles withNormalizeCSS>
+        <MedplumProvider medplum={medplum}>
+          <Component {...pageProps} />
+        </MedplumProvider>
       </MantineProvider>
     </>
   );
