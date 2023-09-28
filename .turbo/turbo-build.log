@@ -1,0 +1,32 @@
+
+> medplum-nextjs-demo@2.1.2 build
+> next build
+
+- warn No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+- info Linting and checking validity of types...
+- info Creating an optimized production build...
+- info Compiled successfully
+- info Collecting page data...
+- info Generating static pages (0/3)
+- info Generating static pages (3/3)
+- info Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      514 B           213 kB
+├   /_app                                  0 B             213 kB
+├ ○ /404                                   181 B           213 kB
+└ λ /api/hello                             0 B             213 kB
++ First Load JS shared by all              213 kB
+  ├ chunks/framework-80778c2cd359dca2.js   45.2 kB
+  ├ chunks/main-fddf096c9287bb20.js        29.3 kB
+  ├ chunks/pages/_app-8f07d902d5a3404a.js  137 kB
+  └ chunks/webpack-5146130448d8adf7.js     944 B
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
