@@ -1,5 +1,5 @@
 
-> medplum-nextjs-demo@2.1.6 build
+> medplum-nextjs-demo@2.1.7 build
 > next build
 
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
@@ -18,14 +18,14 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (pages)                              Size     First Load JS
-┌ ○ / (1260 ms)                            522 B           224 kB
+┌ ○ / (987 ms)                             522 B           224 kB
 ├   /_app                                  0 B             223 kB
 ├ ○ /404                                   181 B           223 kB
 └ λ /api/hello                             0 B             223 kB
 + First Load JS shared by all              223 kB
   ├ chunks/framework-8e279965036b6169.js   45.3 kB
   ├ chunks/main-a46041cdf2d2ff22.js        32.8 kB
-  ├ chunks/pages/_app-5ddcfc8493b2deda.js  144 kB
+  ├ chunks/pages/_app-909cc72813633b72.js  144 kB
   └ chunks/webpack-e53a5203105d5dd8.js     967 B
 
 λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
