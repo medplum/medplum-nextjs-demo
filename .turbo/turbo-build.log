@@ -1,0 +1,36 @@
+
+> medplum-nextjs-demo@2.1.14 build
+> next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+   ▲ Next.js 14.0.1
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ ✓ Generating static pages (4/4) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    544 B           233 kB
+└ ○ /_not-found                          880 B          85.9 kB
++ First Load JS shared by all            85 kB
+  ├ chunks/1dd3208c-78f433dd3c378349.js  53.2 kB
+  ├ chunks/53-664d3902c8501fc0.js        29.9 kB
+  ├ chunks/main-app-801d684badbec49d.js  231 B
+  └ chunks/webpack-39a44901d098d989.js   1.67 kB
+
+
+○  (Static)  prerendered as static HTML
+
