@@ -1,5 +1,5 @@
 
-> medplum-nextjs-demo@3.0.0 build
+> medplum-nextjs-demo@3.0.1 build
 > next build
 
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
@@ -8,10 +8,10 @@ This information is used to shape Next.js' roadmap and prioritize features.
 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
 https://nextjs.org/telemetry
 
-   ▲ Next.js 14.0.1
+   ▲ Next.js 14.1.0
 
    Creating an optimized production build ...
-(node:4995) [DEP_WEBPACK_MODULE_UPDATE_HASH] DeprecationWarning: Module.updateHash: Use new ChunkGraph API
+(node:5402) [DEP_WEBPACK_MODULE_UPDATE_HASH] DeprecationWarning: Module.updateHash: Use new ChunkGraph API
 (Use `node --trace-deprecation ...` to show where the warning was created)
  ✓ Compiled successfully
    Linting and checking validity of types ...
@@ -25,14 +25,13 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ○ /                                    546 B           213 kB
-└ ○ /_not-found                          874 B          86.2 kB
-+ First Load JS shared by all            85.3 kB
-  ├ chunks/1dd3208c-112a0d5beecad7ef.js  53.3 kB
-  ├ chunks/53-475d49b0c31e20f9.js        30 kB
-  ├ chunks/main-app-801d684badbec49d.js  231 B
-  └ chunks/webpack-65115fbe31691e44.js   1.75 kB
+┌ ○ /                                    543 B           173 kB
+└ ○ /_not-found                          881 B          85.1 kB
++ First Load JS shared by all            84.2 kB
+  ├ chunks/1dd3208c-21871016bfb76ea3.js  53.4 kB
+  ├ chunks/997-18a625f5fa4145a2.js       28.9 kB
+  └ other shared chunks (total)          1.92 kB
 
 
-○  (Static)  prerendered as static HTML
+○  (Static)  prerendered as static content
 
