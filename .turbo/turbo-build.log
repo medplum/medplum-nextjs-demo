@@ -1,5 +1,5 @@
 
-> medplum-nextjs-demo@3.1.6 build
+> medplum-nextjs-demo@3.1.7 build
 > next build
 
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
@@ -24,7 +24,7 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ○ /                                    541 B           193 kB
+┌ ○ /                                    541 B           199 kB
 └ ○ /_not-found                          873 B          87.9 kB
 + First Load JS shared by all            87 kB
   ├ chunks/1dd3208c-2d3901f0fec16b52.js  53.6 kB
