@@ -1,5 +1,5 @@
 
-> medplum-nextjs-demo@3.2.12 build
+> medplum-nextjs-demo@3.2.13 build
 > next build
 
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
