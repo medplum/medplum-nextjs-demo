@@ -1,5 +1,5 @@
 
-> medplum-nextjs-demo@3.2.14 build
+> medplum-nextjs-demo@3.2.15 build
 > next build
 
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
@@ -8,7 +8,7 @@ This information is used to shape Next.js' roadmap and prioritize features.
 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
 https://nextjs.org/telemetry
 
-  ▲ Next.js 14.2.11
+  ▲ Next.js 14.2.13
 
    Creating an optimized production build ...
  ✓ Compiled successfully
@@ -28,7 +28,7 @@ Route (app)                              Size     First Load JS
 └ ○ /_not-found                          873 B            88 kB
 + First Load JS shared by all            87.1 kB
   ├ chunks/1dd3208c-2d3901f0fec16b52.js  53.6 kB
-  ├ chunks/286-e23dc37e538d294c.js       31.6 kB
+  ├ chunks/286-67c9719d2a1d2ae5.js       31.6 kB
   └ other shared chunks (total)          1.9 kB
 
 
