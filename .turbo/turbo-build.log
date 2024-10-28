@@ -1,19 +1,23 @@
 
-> medplum-nextjs-demo@3.2.17 build
+> medplum-nextjs-demo@3.2.18 build
 > next build
 
+ ⚠ Invalid next.config.mjs options detected: 
+ ⚠     Unrecognized key(s) in object: 'swcMinify'
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
 Attention: Next.js now collects completely anonymous telemetry regarding usage.
 This information is used to shape Next.js' roadmap and prioritize features.
 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
 https://nextjs.org/telemetry
 
-  ▲ Next.js 14.2.14
+  ▲ Next.js 15.0.1
 
    Creating an optimized production build ...
  ✓ Compiled successfully
-   Skipping linting
-   Checking validity of types ...
+   Linting and checking validity of types ...
+
+ ⚠ The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
    Collecting page data ...
    Generating static pages (0/4) ...
    Generating static pages (1/4) 
@@ -24,12 +28,12 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ○ /                                    546 B           198 kB
-└ ○ /_not-found                          873 B            88 kB
-+ First Load JS shared by all            87.1 kB
-  ├ chunks/1dd3208c-b59e0673b6484842.js  53.6 kB
-  ├ chunks/528-0df92f337cef724c.js       31.6 kB
-  └ other shared chunks (total)          1.9 kB
+┌ ○ /                                    561 B           237 kB
+└ ○ /_not-found                          901 B           100 kB
++ First Load JS shared by all            99.2 kB
+  ├ chunks/765-9c3ebda66a1bfeba.js       44.7 kB
+  ├ chunks/87c73c54-f195e40cabbc0014.js  52.6 kB
+  └ other shared chunks (total)          1.86 kB
 
 
 ○  (Static)  prerendered as static content
