@@ -17,12 +17,19 @@ export default function Page(): JSX.Element {
   const [questionnaire, setQuestionnaire] = useState<Questionnaire | undefined>(undefined);
 
   useEffect(() => {
-    medplum.readResource('Questionnaire', 'intake-questionnaire').then((questionnaire) => {
-      setQuestionnaire(questionnaire);
-    }).catch(() => {
-      setNotFound(true);
-    });
-  }, [medplum]);
+    if (medplum.isLoading() || !profile) {
+      return;
+    }
+    medplum
+      .searchOne('Questionnaire', { name: 'patient-intake' })
+      .then((intakeQuestionnaire) => {
+        setQuestionnaire(intakeQuestionnaire);
+      })
+      .catch((err) => {
+        setNotFound(true);
+        console.log(err);
+      });
+  }, [medplum, profile]);
 
   const handleOnSubmit = useCallback(
     (response: QuestionnaireResponse) => {
