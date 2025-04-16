@@ -1,5 +1,5 @@
 
-> medplum-nextjs-demo@4.0.4 build
+> medplum-nextjs-demo@4.1.0 build
 > next build
 
  ⚠ Invalid next.config.mjs options detected: 
@@ -11,10 +11,10 @@ This information is used to shape Next.js' roadmap and prioritize features.
 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
 https://nextjs.org/telemetry
 
-   ▲ Next.js 15.2.3
+   ▲ Next.js 15.3.0
 
    Creating an optimized production build ...
- ✓ Compiled successfully
+ ✓ Compiled successfully in 2.0min
    Linting and checking validity of types ...
 
  ⚠ The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/app/api-reference/config/eslint#migrating-existing-config
@@ -28,12 +28,12 @@ https://nextjs.org/telemetry
    Collecting build traces ...
 
 Route (app)                                 Size  First Load JS
-┌ ○ /                                      566 B         260 kB
+┌ ○ /                                      566 B         261 kB
 └ ○ /_not-found                            979 B         102 kB
 + First Load JS shared by all             101 kB
-  ├ chunks/315-562c03edc28fac86.js       45.9 kB
-  ├ chunks/87c73c54-9a4ee3ec583dc9e7.js  53.3 kB
-  └ other shared chunks (total)          1.87 kB
+  ├ chunks/315-8dd7e0e16c67724f.js       46.4 kB
+  ├ chunks/87c73c54-8a5217efc3a58f82.js  53.2 kB
+  └ other shared chunks (total)          1.88 kB
 
 
 ○  (Static)  prerendered as static content
