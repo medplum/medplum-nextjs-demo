@@ -1,5 +1,5 @@
 
-> medplum-nextjs-demo@4.4.2 build
+> medplum-nextjs-demo@4.4.3 build
 > next build
 
  ⚠ Invalid next.config.mjs options detected: 
@@ -14,7 +14,7 @@ https://nextjs.org/telemetry
    ▲ Next.js 15.5.4
 
    Creating an optimized production build ...
- ✓ Compiled successfully in 2.2min
+ ✓ Compiled successfully in 94s
    Linting and checking validity of types ...
 
  ⚠ The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/app/api-reference/config/eslint#migrating-existing-config
